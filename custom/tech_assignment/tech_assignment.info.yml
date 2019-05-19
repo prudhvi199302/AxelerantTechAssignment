@@ -1,0 +1,8 @@
+name: Tech Assignment
+type: module
+description: 'Custom module for the technical assignment.'
+package: Custom
+core: 8.x
+configure: system.admin_config_system
+ dependencies:
+  - drupal:system
